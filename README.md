@@ -4,7 +4,7 @@ Static company landing for [broong.com](https://broong.com) — same poster layo
 
 HTML + CSS only. Email uses a click-time `mailto:` assembly (no plaintext address in HTML attributes).
 
-SEO: Organization JSON-LD, Open Graph + Twitter Card, `robots.txt`, `sitemap.xml`, favicon / apple-touch-icon, and visually-hidden company copy including a natural vibe coding mention.
+SEO: Organization JSON-LD, Open Graph + Twitter Card, `robots.txt`, `sitemap.xml`, favicon / apple-touch-icon, and visible poster caption including vibe coding (no hidden SEO text).
 
 ## Local preview
 
