@@ -143,7 +143,7 @@
         <h2>13. Contact</h2>
         <div class="contact-block">
           <p><strong>Broong, Inc.</strong></p>
-          <p>Contact: <a class="contact-email" href="#" role="link">Email us</a></p>
+          <p>Contact: <a href="#" role="link" data-contact-email>Email us</a></p>
           <p>Website: <a href="https://broong.com">https://broong.com</a></p>
         </div>
 
@@ -164,17 +164,6 @@
       </nav>
     </footer>
   </div>
-  <script>
-    (function () {
-      var el = document.querySelector(".contact-email");
-      if (!el) return;
-      var user = "info";
-      var domain = "broong.com";
-      el.addEventListener("click", function (e) {
-        e.preventDefault();
-        window.location.href = "mailto:" + user + "@" + domain;
-      });
-    })();
-  </script>
+  <script src="/assets/js/contact.js" defer></script>
 </body>
 </html>

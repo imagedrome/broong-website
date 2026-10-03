@@ -37,7 +37,6 @@
     "name": "Broong Inc.",
     "url": "https://broong.com",
     "logo": "https://broong.com/assets/images/apple-touch-icon.png",
-    "email": "info@broong.com",
     "description": "Broong Inc. develops consumer apps and AI-powered products, including Beyo, using AI-assisted development and vibe coding workflows.",
     "sameAs": [
       "https://beyo.day"
@@ -143,7 +142,7 @@
       decoding="async"
     >
 
-    <a class="poster-email" href="#" aria-label="Email Broong Inc." id="poster-email">
+    <a class="poster-email" href="#" aria-label="Email Broong Inc." data-contact-email>
       <img
         src="/assets/images/email@2x.png"
         width="38"
@@ -154,15 +153,6 @@
     </a>
   </main>
 
-  <script>
-    (function () {
-      var el = document.getElementById("poster-email");
-      if (!el) return;
-      el.addEventListener("click", function (e) {
-        e.preventDefault();
-        window.location.href = "mailto:" + "info" + "@" + "broong.com";
-      });
-    })();
-  </script>
+  <script src="/assets/js/contact.js" defer></script>
 </body>
 </html>
