@@ -1,0 +1,80 @@
+<!-- DRAFT 0.1 for review. Support URL for App Store Connect. Keep this a short contact page, not a legal document. -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Support | Climini</title>
+  <meta name="description" content="Support for Climini by Broong, Inc.">
+  <link rel="canonical" href="https://broong.com/climini/support/">
+  <meta name="robots" content="index, follow">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://broong.com/climini/support/">
+  <meta property="og:title" content="Support | Climini">
+  <meta property="og:description" content="Support for Climini by Broong, Inc.">
+  <link rel="stylesheet" href="/assets/css/style.css">
+</head>
+<body>
+  <div class="page">
+    <div class="page-inner">
+      <main>
+        <h1>Climini Support</h1>
+        <p class="meta">
+          <strong>Broong, Inc.</strong><br>
+          Last Updated: September 29, 2026
+        </p>
+
+        <p class="lede">
+          Climini compares the weather now with the same hour yesterday.
+        </p>
+        <p>
+          For a question, a bug, or feedback, email us. We read messages sent to this address.
+        </p>
+
+        <div class="contact-block">
+          <p><strong>Broong, Inc.</strong></p>
+          <p>Contact: <a class="contact-email" href="#" role="link">Email us</a></p>
+        </div>
+
+        <h2>Before you write</h2>
+        <p>It helps if you include:</p>
+        <ul>
+          <li>iPhone, Apple Watch, or Apple Vision Pro</li>
+          <li>The Climini version shown in Settings</li>
+          <li>What you expected, and what happened</li>
+        </ul>
+
+        <hr>
+
+        <p>
+          <a href="/climini/privacy/">Privacy Policy</a><br>
+          <a href="/climini/terms/">Terms of Service</a>
+        </p>
+      </main>
+    </div>
+
+    <footer class="site-footer">
+      <p>&copy; 2026 Broong, Inc.</p>
+      <nav aria-label="Legal">
+        <a href="/climini/privacy/">Privacy Policy</a>
+        <span aria-hidden="true">·</span>
+        <a href="/climini/terms/">Terms of Service</a>
+        <span aria-hidden="true">·</span>
+        <a href="/climini/support/">Support</a>
+      </nav>
+    </footer>
+  </div>
+  <script>
+    (function () {
+      var el = document.querySelector(".contact-email");
+      if (!el) return;
+      var user = "info";
+      var domain = "broong.com";
+      el.addEventListener("click", function (e) {
+        e.preventDefault();
+        window.location.href = "mailto:" + user + "@" + domain;
+      });
+    })();
+  </script>
+</body>
+</html>
